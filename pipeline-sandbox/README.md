@@ -8,7 +8,7 @@ Create simple end-to-end scikit-learn pipelines to compare different classificat
 4 pipelines, one for each different model: Logistic Regression, SVM, Random Forest and Gradient Boosting.
 
 - (quick) EDA
-- Preprocess for each model
+- (quick) Preprocess for each model
 - Train model
   - Grid Search
 - Cross validation

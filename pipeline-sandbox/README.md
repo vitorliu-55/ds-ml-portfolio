@@ -19,3 +19,13 @@ Create simple end-to-end scikit-learn pipelines to compare different classificat
 
 ### Result
 SVM with AUC = 0.854 and F1 = 0.85
+
+### Considerations
+Things to improve in next projects:
+- EDA: was quick and poor
+- Data Wrangling: forgot to do Data Wrangling
+- Model selection: did not interpretate model. 
+- General: used redundant block of codes
+
+#### Start date: 27/12
+#### End date: 04/01

@@ -24,6 +24,7 @@ SVM with AUC = 0.854 and F1 = 0.85
 Things to improve in next projects:
 - EDA: was quick and poor.
 - Data Wrangling: forgot to do Data Wrangling.
+- Feature Engineering: forgot to do Feature Engineering.
 - Model selection: did not interpretate model. 
 - General: used redundant block of codes.
 

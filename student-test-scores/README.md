@@ -1,4 +1,4 @@
-# student-test-scores (WIP)
+# student-test-scores
 Data Science Pipeline from EDA to Modeling using sklearn and Student Test Scores Dataset https://www.kaggle.com/competitions/playground-series-s6e1/data .
 
 ### Objectives

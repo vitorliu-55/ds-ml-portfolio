@@ -4,21 +4,27 @@ Predict the likelihood of customer churn. Kaggle competition link: https://www.k
 ### Objective
 - Create a productive MLOps environment having:
   - Model Registry (MLflow)
-  - Containerization (Docker)
   - API serving (FastAPI)
-  - Orchestration (Airflow?, Argo?, Prefect?)
-  - Feature Store?
+  - Containerization (Docker)
+  - Orchestration *(?) (Airflow?, Argo?, Prefect?)
+  - Feature Store *(?)
 
 ### Pipeline
-- Preprocess
-- Train and validate XGBoost
+- Model testing
+- Feature engineering
+- Model tuning
+  - Registry
 - Test
-- Register
 - API Serving
+- Containerization
 
 ### Considerations
 
 
+Things to improve in next projects:
+- Better distintion between model testing and model tuning.
+- Better MLFlow usage.
+  - Proper use of tags, naming, system metrics, etc.
 
 #### Start date: 17/03
 #### Work days: 

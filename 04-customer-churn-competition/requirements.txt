@@ -1,0 +1,4 @@
+mlflow==3.10.1
+mlflow_skinny==3.10.1
+mlflow_tracing==3.10.1
+pandas==3.0.1

@@ -6,8 +6,6 @@ Predict the likelihood of customer churn. Kaggle competition link: https://www.k
   - Model Registry (MLflow)
   - API serving (FastAPI)
   - Containerization (Docker)
-  - Orchestration *(?) (Airflow?, Argo?, Prefect?)
-  - Feature Store *(?)
 
 ### Pipeline
 - Model testing
@@ -18,14 +16,28 @@ Predict the likelihood of customer churn. Kaggle competition link: https://www.k
 - API Serving
 - Containerization
 
+### Result
+XGBoost Classifier
+- Test ROC AUC: 0.91422
+- Competition placement: 2451/4142
+
 ### Considerations
+Improvements from last project:
+- Better model
+- Best feature engineering methodology so far
+  - Custom sklearn transformers
+  - Prevented Data Leakage
+- MLflow: better MLflow usage
+- Learned to serve models
+- Learned to use containers
+- Created a server environment
+- Submitted to competition
 
-
-Things to improve in next projects:
-- Better distintion between model testing and model tuning.
-- Better MLFlow usage.
-  - Proper use of tags, naming, system metrics, etc.
+Things to improve in next projects
+- Use MLflow and docker from start
+- Aim to a better position at competition
+- Get better at feature engineering
 
 #### Start date: 17/03
-#### Work days: 
-#### End date: 
+#### Work days: ~ 7 days
+#### End date: 01/04

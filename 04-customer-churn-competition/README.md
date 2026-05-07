@@ -1,43 +1,86 @@
-# custome-churn-competition
-Predict the likelihood of customer churn. Kaggle competition link: https://www.kaggle.com/competitions/playground-series-s6e3
+# customer-churn-competition
 
-### Objective
-- Create a productive MLOps environment having:
-  - Model Registry (MLflow)
-  - API serving (FastAPI)
-  - Containerization (Docker)
+Customer churn prediction project focused on MLOps and deployment workflows.
 
-### Pipeline
+Competition:
+https://www.kaggle.com/competitions/playground-series-s6e3
+
+---
+
+# Objective
+
+Develop a production-oriented Machine Learning workflow including:
+- experiment tracking,
+- model serving,
+- and containerization.
+
+Main goals:
+- Implement MLflow for experiment tracking
+- Serve models with FastAPI
+- Containerize the application using Docker
+
+---
+
+# Pipeline
+
+## Modeling
 - Model testing
 - Feature engineering
-- Model tuning
-  - Registry
-- Test
-- API Serving
-- Containerization
+- Hyperparameter tuning
 
-### Result
-XGBoost Classifier
+## Experiment Tracking
+- MLflow registry integration
+
+## Deployment
+- API serving with FastAPI
+- Docker containerization
+
+---
+
+# Results
+
+Best model:
+- XGBoost Classifier
+
+Metrics:
 - Test ROC AUC: 0.91422
-- Competition placement: 2451/4142
+- Kaggle placement: 2451 / 4142
 
-### Considerations
-Improvements from last project:
-- Better model
-- Best feature engineering methodology so far
-  - Custom sklearn transformers
-  - Prevented Data Leakage
-- MLflow: better MLflow usage
-- Learned to serve models
-- Learned to use containers
-- Created a server environment
-- Submitted to competition
+---
 
-Things to improve in next projects
-- Use MLflow and docker from start
-- Aim to a better position at competition
-- Get better at feature engineering
+# Improvements Compared to Previous Projects
 
-#### Start date: 17/03
-#### Work days: ~ 7 days
-#### End date: 01/04
+- Stronger feature engineering workflow
+- Better use of MLflow
+- Custom scikit-learn transformers
+- Prevention of data leakage
+- Deployment-oriented environment
+- API serving implementation
+- Containerized workflow
+
+---
+
+# Main Learnings
+
+- MLOps tools should be integrated from the beginning of the project lifecycle.
+- Feature engineering remains one of the most impactful stages for tabular data.
+- Competition ranking can still be improved with stronger experimentation strategies.
+
+---
+
+# Technologies
+
+- Python
+- Scikit-learn
+- XGBoost
+- MLflow
+- FastAPI
+- Docker
+
+---
+
+# Timeline
+
+- Start date: 17/03
+- Work days: ~7 days
+- End date: 01/04

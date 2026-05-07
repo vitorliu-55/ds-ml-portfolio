@@ -1,46 +1,80 @@
 # student-test-scores
-Data Science Pipeline from EDA to Modeling using sklearn and Student Test Scores Dataset https://www.kaggle.com/competitions/playground-series-s6e1/data .
 
-### Objectives
-- Create a good EDA.
-- Create scikit-learn pipelines to compare different regression models.
-- Interpret and validate final model. 
+Regression project using the Student Test Scores dataset.
 
-### Pipeline
-- EDA
-  - Initial Data Inspection
-  - Data quality
-  - Univariate analysis
-  - Bivariate analysis
-- (Quick) Data Wrangling
-- Feature Engineering
-- Modeling
-- Test
+Dataset:
+https://www.kaggle.com/competitions/playground-series-s6e1/data
+
+---
+
+# Objective
+
+Develop a complete Data Science workflow from exploratory data analysis to regression modeling and interpretation.
+
+Main goals:
+- Create a structured EDA process
+- Compare regression models using scikit-learn pipelines
+- Interpret and validate the final model
+
+---
+
+# Pipeline
+
+## Exploratory Data Analysis
+- Initial data inspection
+- Data quality analysis
+- Univariate analysis
+- Bivariate analysis
+
+## Data Preparation
+- Data wrangling
+- Feature engineering
+
+## Modeling
+- Regression training
+- Model evaluation
+- Validation
+
+## Interpretation
+- Residual analysis
 - Model interpretation
- 
-### Result
-Ridge
+
+---
+
+# Results
+
+Best model:
+- Ridge Regression
+
+Metrics:
 - RMSE: 8.894
 - MAE: 7.101
-- R2: 0.778
+- R²: 0.778
 - Residual mean: -5.607
 
-### Cosiderations
-Improvements from last project:
-- Better EDA.
-- Remebered to do Data Wrangling.
-- Remebered to do Feature Engineering.
-- Interpreted the final model.
-- Cleaner code.
-- Moved from google colab to personal PC, improving computational power and decreasing time.
+---
 
-Things to improve in next projects:
-- Data Wrangling: dataset did not required Data Wrangling.
-- Modeling: slow fit caused by large dataset.
-- General: project time span to long. Limit time span from project start.
-- Documentation: poor code documentation.
-- Test: test dataset did not have y values because it is from a kaggle competition. 
+# Improvements Compared to Previous Project
 
+- Better EDA structure
+- Feature engineering implementation
+- Cleaner code organization
+- Improved model interpretation
+- Better computational workflow using a local machine instead of Google Colab
 
-#### Start date: 09/01
-#### End date: 21/02
+---
+
+# Main Learnings
+
+- Documentation quality still needed improvement.
+- Project duration should be reduced with stricter timelines.
+- The dataset required limited data wrangling.
+- Large datasets increased training time considerably.
+- The Kaggle test dataset did not provide target values for external validation.
+
+---
+
+# Timeline
+
+- Start date: 09/01
+- End date: 21/02
